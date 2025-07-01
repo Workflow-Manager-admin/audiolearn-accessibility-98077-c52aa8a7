@@ -94,3 +94,15 @@ INFO:     100.64.4.167:59806 - "GET /quiz/ HTTP/1.1" 200 OK
 INFO:     100.64.4.167:59820 - "GET /quiz/ HTTP/1.1" 200 OK
 INFO:     100.64.4.167:34100 - "OPTIONS /voice/command HTTP/1.1" 200 OK
 INFO:     100.64.4.167:34102 - "POST /voice/command HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54572 - "GET /content/?type=paragraph&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54584 - "GET /content/?type=sentence&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54566 - "GET /content/?type=word&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54608 - "GET /content/?type=word&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54588 - "GET /content/?type=sentence&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54592 - "GET /content/?type=paragraph&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54612 - "GET /content/?type=word&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54626 - "GET /content/?type=paragraph&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54614 - "GET /content/?type=sentence&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54664 - "GET /content/?type=sentence&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54654 - "GET /content/?type=paragraph&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54642 - "GET /content/?type=word&language=en HTTP/1.1" 200 OK
