@@ -1,0 +1,4 @@
+{
+    "command": "pytest",
+    "working_directory": "/home/kavia/workspace/code-generation/audiolearn-accessibility-98077-c52aa8a7/backend_api"
+}
