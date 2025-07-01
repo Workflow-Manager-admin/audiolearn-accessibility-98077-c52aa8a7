@@ -182,3 +182,17 @@ INFO:     100.64.4.167:41106 - "GET /quiz/ HTTP/1.1" 200 OK
 INFO:     100.64.4.167:41116 - "GET /quiz/ HTTP/1.1" 200 OK
 INFO:     100.64.4.167:41124 - "GET /quiz/ HTTP/1.1" 200 OK
 INFO:     100.64.4.167:41140 - "GET /quiz/ HTTP/1.1" 200 OK
+INFO:     100.64.4.167:56926 - "GET /content/?type=paragraph&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:56928 - "GET /content/?type=sentence&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:56938 - "GET /content/?type=word&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:56960 - "GET /content/?type=sentence&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:56950 - "GET /content/?type=paragraph&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:56952 - "GET /content/?type=word&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:56978 - "GET /content/?type=paragraph&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:56976 - "GET /content/?type=sentence&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:56992 - "GET /content/?type=word&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:57008 - "GET /content/?type=sentence&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:56998 - "GET /content/?type=paragraph&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:57020 - "GET /content/?type=word&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:57030 - "GET /quiz/ HTTP/1.1" 200 OK
+INFO:     100.64.4.167:57032 - "GET /quiz/ HTTP/1.1" 200 OK
