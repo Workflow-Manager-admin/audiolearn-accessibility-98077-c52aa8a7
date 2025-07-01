@@ -308,3 +308,5 @@ INFO:     100.64.4.167:44892 - "GET /content/?type=word&language=en HTTP/1.1" 20
 INFO:     100.64.4.167:44924 - "GET /content/?type=paragraph&language=en HTTP/1.1" 200 OK
 INFO:     100.64.4.167:44932 - "GET /content/?type=word&language=en HTTP/1.1" 200 OK
 INFO:     100.64.4.167:44944 - "GET /content/?type=sentence&language=en HTTP/1.1" 200 OK
+INFO:     100.64.4.167:34364 - "GET /quiz/ HTTP/1.1" 200 OK
+INFO:     100.64.4.167:34366 - "GET /quiz/ HTTP/1.1" 200 OK
