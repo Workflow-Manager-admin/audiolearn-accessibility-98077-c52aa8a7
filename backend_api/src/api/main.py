@@ -246,7 +246,8 @@ def create_user(user: UserCreate):
     c = conn.cursor()
     try:
         c.execute(
-            "INSERT INTO user (username, preferred_font_size, preferred_tts_speed, preferred_language) "
+            "INSERT INTO user (username, preferred_font_size, preferred_tts_speed, "
+            "preferred_language) "
             "VALUES (?, ?, ?, ?)",
             (
                 user.username,
@@ -292,7 +293,8 @@ def update_user_preferences(user_id: int, update: UserCreate):
     conn = get_db()
     c = conn.cursor()
     c.execute(
-        "UPDATE user SET preferred_font_size=?, preferred_tts_speed=?, preferred_language=? WHERE id=?",
+        "UPDATE user SET preferred_font_size=?, preferred_tts_speed=?, preferred_language=? "
+        "WHERE id=?",
         (
             update.preferred_font_size,
             update.preferred_tts_speed,
@@ -330,7 +332,7 @@ def add_content(content: ContentBase):
             content.text,
             content.language,
             content.translation,
-            content.audio_url
+            content.audio_url,
         )
     )
     content_id = c.lastrowid
@@ -403,7 +405,7 @@ def add_favorite(user_id: int, content_id: int):
     c = conn.cursor()
     c.execute(
         "INSERT INTO favorite (user_id, content_id) VALUES (?, ?)",
-        (user_id, content_id)
+        (user_id, content_id),
     )
     fav_id = c.lastrowid
     conn.commit()
